@@ -732,21 +732,20 @@ li > p {
   align-items: center;
   height: 44px;
   width: 44px;
+  border-radius: 50%;
   fill: var(--social-color);
 
-  transition-property: fill, background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover .social-image,
 .social-link:focus .social-image {
   fill: var(--white-color);
-  background-color: var(--accent-color);
 }
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-  border-radius: 50%;
 }
 .social-image {
   height: 20px;
